@@ -1,0 +1,3 @@
+[submodule "aconfigIg_clone"]
+	path = aconfigIg_clone
+	url = https://github.com/andrey-borue/configs.git
