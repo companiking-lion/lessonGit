@@ -1,0 +1,77 @@
+@импорт url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,700;1,400;1,500&family=Playfair+Display:wght@600;700;800;900&display=swap' );
+
+
+.main_link:hover{
+	color: #e30e9a;
+	text-decoration: underline;
+	text-decoration-line-color: #e3640e;
+	cursor: nesw-resize;
+}
+.post-title,a{
+	color: #e3640e;
+	text-decoration-line:underline;
+	text-align: center;
+
+
+}
+nav ul {	background:#f8efd7 ;
+	display: block;
+	float: right;
+	margine-left: 25%;
+	width: 100%;
+	margine-bottom: 70px;
+	text-align: right;
+	border: 5px dashed green ;
+}
+	nav li{
+		display: inline;
+		background:#f8efd8 ;
+		border: 3px dotter #green;
+		text-align: right;
+		padding: 0 55px;
+		cursor: pointer;
+
+}
+nav li:hover {
+	color: f8efd8;
+	background: green;
+	border-radius: 10px;
+	border-color: #e3640e;
+}
+
+	.nav li:not(:last-of-type){
+		margine-right: 20px;
+	}
+
+p,li
+{
+		color: #e3640e;
+		text-orientation: center ;
+
+		font-weight: 700;
+		font-size: 20px;
+
+
+}
+
+
+body{
+background-color: #82a1f6;
+background-image: url('IMG grib.jpg');
+background-size:cover ;
+
+}
+header{
+background-color: #f8efd7;
+
+text-align-last: left;
+font-family: 'Arimo', sans-serif;
+font-family: 'Playfair Display', serif;
+
+
+}
+footer{
+	background-color: #f8efd7
+
+}
+
